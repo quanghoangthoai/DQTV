@@ -1,0 +1,263 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  padding: 0 !important;
+}
+
+nav .container #navbarNav .nav-item {
+  padding-left: 10px;
+}
+
+#main-menu {
+  background-color: #00a759;
+}
+
+#main-menu .menu {
+  display: inline-flex;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+#main-menu .menu li {
+  text-align: center;
+}
+
+#main-menu .menu li:hover {
+  background-color: #ed3237;
+}
+
+#main-menu .menu .active {
+  background-color: #ed3237;
+}
+
+#main-menu .menu .menu-item {
+  padding: 10px 14px 10px 17px;
+}
+
+#main-menu .menu .menu-item a {
+  color: white;
+  font-size: 13px;
+}
+
+#main-menu .menu .menu-item i {
+  font-size: 13px;
+}
+
+#main-menu .menu .menu-item a:hover {
+  text-decoration: none;
+  background-color: #ed3237;
+}
+
+#main-menu .menu .menu-item .dropdown-menu {
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  margin: 12px 0 0;
+  font-size: 1rem;
+  color: #212529;
+  text-align: left;
+  list-style: none;
+  background-color: #00a759;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0;
+}
+
+#contents .home-img img {
+  width: 100%;
+}
+
+#social-menu {
+  position: fixed;
+  float: left;
+  top: 35%;
+}
+
+#social-menu .social {
+  list-style: none;
+  padding-left: 0;
+}
+
+#social-menu .social .social-item {
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+}
+
+#social-menu .social .social-item i {
+  font-size: 25px;
+  padding: 10px;
+  color: #fff;
+}
+
+#social-menu .social .google {
+  background-color: #146EB4;
+}
+
+#social-menu .social .facebook {
+  background-color: #3B5998;
+}
+
+#social-menu .social .twitter {
+  background-color: #1DA1F2;
+}
+
+#social-menu .social .print {
+  background-color: gray;
+}
+
+#social-menu .social .plus {
+  background-color: #F35022;
+}
+
+#footer .f-contact {
+  background-color: #ed3237;
+  color: #FFF;
+}
+
+#footer .f-contact .container .row {
+  padding: 0.5rem;
+}
+
+#footer .f-contact .container .row p {
+  margin-bottom: 0;
+}
+
+#footer .f-links {
+  background-color: #363636;
+  color: #FFF;
+}
+
+#footer .f-links .container .row {
+  padding: 20px 0 0 0;
+}
+
+#footer .f-links .container .row ul {
+  padding-left: 0;
+}
+
+#footer .f-links .container .row ul li {
+  list-style: none;
+  padding: 5px 0;
+}
+
+#footer .f-links .container .row ul li a {
+  color: #afc0c7;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+#footer .f-links .container .row ul li a:hover {
+  text-decoration: none;
+}
+
+#footer .f-links .container hr {
+  border-top: 1px solid white;
+}
+
+#footer .f-links .container .f-address p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #afc0c7;
+  padding-bottom: 10px;
+  margin-bottom: 0rem;
+}
+
+#footer .f-copyright {
+  background-color: #282828;
+  font-size: 12px;
+  font-family: "Merriweather", serif;
+  color: #afc0c7;
+}
+
+#footer .f-copyright p {
+  padding: 10px;
+}
+
+#footer .f-copyright p a {
+  color: red;
+}
+
+#image-list-post {
+  margin: 20px 0;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+#image-list-post .row {
+  justify-content: center;
+  align-items: center;
+}
+
+#image-list-post .row .item {
+  position: relative;
+}
+
+#image-list-post .row .img-list-post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#image-list-post .row .img-list-post img {
+  max-width: 100%;
+}
+
+#image-list-post .row .img-col-12 {
+  margin-bottom: 20px;
+}
+
+#image-list-post .row .ilp-title {
+  position: absolute;
+  background-color: #212529;
+  opacity: 0.8;
+  bottom: 0;
+  width: 100%;
+}
+
+#image-list-post .row .ilp-title p {
+  color: #FFF;
+}
+
+#image-list-post .row .ilp-title .sm-title {
+  font-size: 14px;
+}
+
+#list-post .row .category .title-category {
+  font-size: 18px;
+  font-weight: 700;
+  border-bottom: #ed3237 2px solid;
+}
+
+#list-post .row .category .icon i {
+  color: #F35022;
+  font-size: 18px;
+}
+
+#list-post .row .form-group {
+  display: flex;
+}
+
+#list-post .row .form-group .form-control {
+  border-radius: 0px;
+}
+
+#list-post .row .form-group .btn {
+  border-radius: 0px;
+  border-color: #ed3237;
+  background-color: #ed3237;
+}
+
+#list-post .row .category .title-category .title {
+  margin-bottom: 5px !important;
+}
+
+#list-post .row .category .list-category {
+  margin-top: 15px;
+}
+
+#list-post .row .category .list-category .item-category {
+  margin-bottom: 10px !important;
+  border-bottom: 1px #7d7d7d dashed;
+}

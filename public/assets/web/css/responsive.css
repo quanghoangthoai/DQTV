@@ -1,0 +1,43 @@
+@media only screen and (min-width: 991px) {
+  .nav-item.dropdown > .dropdown-menu {
+    top: 200%;
+    transition: 0.3s all ease-in-out;
+  }
+  .nav-item.dropdown:hover > .dropdown-menu {
+    display: block;
+    top: 100%;
+  }
+  .nav-item.dropdown > .dropdown-toggle:active {
+    pointer-events: none;
+  }
+  section#news-slider .owl-nav {
+    top: -43px;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+  /* styles for browsers larger than 960px; */
+  header .navbar-menu nav .nav-item.active a {
+    background: none;
+    color: #fff212 !important;
+  }
+  footer h4 {
+    font-size: 13px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  footer h4 {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  #button-top {
+    right: 20px;
+  }
+  #wrapper > .container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
